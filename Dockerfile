@@ -1,4 +1,3 @@
-# We are using a UBI 
 FROM registry.access.redhat.com/ubi8/python-38
 
 ENV PYTHONUNBUFFERED=1
