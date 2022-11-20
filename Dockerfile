@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi8/python-38@sha256:6ea52a6592b8a2ff6d53614e547cb21a1f85688960dc779fe93bb50948152038
+FROM python:3.8.15-slim-bullseye@sha256:3778adf3c19e35a6cbb7e7ef85c8715e4062f0292e7e8f876a84cc90657d2126 
 ENV PYTHONUNBUFFERED=1
 COPY * /opt/microservices/
 COPY requirements.txt /opt/microservices/
